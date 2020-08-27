@@ -1,0 +1,11 @@
+body{
+	background-image: url("../env/images/celeb2.jpeg");
+	background-size: cover;
+}
+.congrats{
+	margin:14% auto 0;
+	color:#fff;
+	font-size:30px;
+	text-align:center;
+	color:black;
+}

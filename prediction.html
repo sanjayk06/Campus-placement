@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>		
+	  <head>
+	  	   <title>Prediction</title>
+	  	   <link rel="stylesheet" href="css/style1.css" type="text/css">
+	  </head>
+	  <body class="text-center">
+	  	
+	  	<div class="simple-form">
+	  		<h1>PREDICTION FORM</h1>
+	  		<form action="http://localhost:5000/predict"> 
+            <select id="ph" name="ph">
+                <option disabled="disabled" selected="selected" id="ph">Choose Your Gender....</option>
+                <option>Female</option>
+                <option>Male</option>
+                </select><br><br>
+                <input type="text" name="sslc" id="button" placeholder="Enter Your SSLC Percentage" required> <br><br>
+                <select id="ph" name="stream">
+                <option disabled="disabled" selected="selected">Choose Your PU Stream....</option>
+                    <option>COMMERCE</option>
+                    <option>Science</option>
+                    <option>Arts</option>
+            </select><br><br>
+            <input type="text" name="pu" id="button" placeholder="Enter Your PU Percentage" required> <br><br>
+               <select id="ph">
+                <option disabled="disabled" selected="selected">Choose Your Degree Stream....</option>
+                <option>Comm and Mgmt</option>
+                <option>science and tech</option>
+                <option>Others</option>   
+            </select><br><br>
+               <input type="text" name="degree" id="button" placeholder="Enter Your Degree Marks" required> <br><br>
+               <select id="ph" name="wex">
+                <option disabled="disabled" selected="selected"> Your Work-Experience....</option>
+                <option>YES</option>
+                <option>NO</option>
+            </select><br><br><br><br>
+            <input type="submit" value="Predict" id="butt">
+                </form>
+          </div>
+          
+	  </body>
+	  </html>

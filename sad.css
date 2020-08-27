@@ -1,0 +1,11 @@
+body{
+	background-image: url("../env/images/sad1.jpg");
+	background-size: cover;
+}
+.congrats{
+	margin:4% auto 0;
+	color:#fff;
+	font-size:30px;
+	text-align:center;
+	color:#C0C0C0;
+}

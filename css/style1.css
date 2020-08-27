@@ -1,0 +1,85 @@
+body{
+	background-image: url(../css/1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+
+}
+.simple-form
+{
+	text-align: center;
+	margin: 100px 400px;
+	width:850px;
+    background-color:rgb(0,0,0,0.1);
+    margin:auto;
+    color:#000000;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    border-radius:15px 15px 0px 0px ;
+    
+}
+/*.name{
+            margin-left:25px;
+   margin-top:30px;
+   width: 125px;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;}*/
+            /*.gender{
+         position:relative;
+     left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:132px;
+     height:40px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555; 
+     outline:none;
+     overflow:hidden;
+  }*/
+#registration{
+	width:100%;
+	background-color: #051019;
+	opacity: 0.8;
+	padding: 50px 0px;
+
+}
+#button{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px; 
+}
+#ph{
+	outline: 0px; 
+	width: 273px;
+	padding: 9px;
+	border-radius: 5px;
+}
+#phone{
+	width: 180px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px; 
+}
+#rd{
+
+}
+#but{
+	color: white;
+	font-size: 18px;
+}
+#butt{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px; 
+	background-color: #000000;
+	border:2px solid #000000; 
+	color: aliceblue;
+	font-size:18px;
+}
+#butt:hover{
+	color: white;
+}
